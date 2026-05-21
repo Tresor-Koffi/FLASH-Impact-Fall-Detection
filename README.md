@@ -4,7 +4,7 @@
 
 [![Conference](https://img.shields.io/badge/IEEE%20ICIP-2026-blue)](https://icip2026.exordo.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Status](https://img.shields.io/badge/Code-Coming%20Soon-orange)
+![Status](https://img.shields.io/badge/Code-Available-brightgreen)
 
 </div>
 
@@ -70,10 +70,19 @@ FLASH consists of four stages:
 
 ---
 
-## 📦 Code
+## 📦 Installation & Usage
 
-> 🚧 **Code will be released soon.**  
-> We are currently cleaning and documenting the codebase. Please **star ⭐ the repo** to be notified when the code is available.
+### Requirements
+```bash
+git clone https://github.com/Tresor-Koffi/FLASH-Impact-Fall-Detection.git
+cd FLASH-Impact-Fall-Detection
+pip install -r requirements.txt
+```
+
+### Dataset Setup
+Download the datasets and place them in a `Data/` folder:
+- **UP-Fall Dataset**: [martinez2019upfall]
+- **UMAFall Dataset**: [casilari2017umafall]
 
 ---
 
